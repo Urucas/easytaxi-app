@@ -1,7 +1,7 @@
 # easytaxi-app
 Ask for an Taxi from the menu bar
 
-<img src="https://raw.githubusercontent.com/Urucas/easytaxi-app/master/screen.png" width="50%" />
+<img src="https://raw.githubusercontent.com/Urucas/easytaxi-app/master/screen.png" width="75%" />
 
 # Build
 ```bash
