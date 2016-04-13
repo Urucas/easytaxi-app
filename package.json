@@ -1,7 +1,7 @@
 {
   "name": "easytaxi-app",
   "version": "0.0.1",
-  "description": "Ask for an EasyTaxi from the menu bar",
+  "description": "Ask for an Taxi from the menu bar",
   "main": "./lib/index.js",
   "scripts": {
     "start" : "electron .",
