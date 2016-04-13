@@ -1,0 +1,21 @@
+{
+  "name": "easytaxi-app",
+  "version": "0.0.1",
+  "description": "Ask for an EasyTaxi from the menu bar",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start" : "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easy",
+    "taxi",
+    "desktop",
+    "app"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^0.4.1"
+  }
+}
