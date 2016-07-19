@@ -2,10 +2,11 @@
   "name": "easytaxi-app",
   "version": "0.0.1",
   "description": "Ask for an Taxi from the menu bar",
-  "main": "./lib/index.js",
+  "main": "electron.js",
   "scripts": {
-    "start" : "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./bin/index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "node package.js"
   },
   "keywords": [
     "easy",
@@ -16,6 +17,7 @@
   "author": "Urucas <hello@urucas.com>",
   "license": "MIT",
   "dependencies": {
-    "electron": "^0.4.1"
+    "electron-prebuilt": "^0.37.5",
+    "menubar": "^4.1.3"
   }
 }

@@ -1,7 +1,10 @@
 var body   = document.getElementsByTagName("body")[0];
 var progress = document.getElementsByTagName("progress")[0];
 var closeBtt = document.querySelector("button.close");
-closeBtt.onclick = window.close;
+closeBtt.onclick = function() {
+  window.close();
+  ipcRenderer.send("close");
+}
 var MAX = 100;
 progress.setAttribute("max", MAX);
 var interval = setInterval(updateProgress, 500);
