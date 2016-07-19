@@ -1,6 +1,6 @@
 {
   "name": "easytaxi-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ask for an Taxi from the menu bar",
   "main": "electron.js",
   "scripts": {
